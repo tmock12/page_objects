@@ -1,6 +1,8 @@
 require "bundler/setup"
 require "page_objects"
-require 'capybara/rspec'
+require "capybara/rspec"
+require "support/capybara"
+require "support/path_helper"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -13,6 +15,3 @@ RSpec.configure do |config|
     c.syntax = :expect
   end
 end
-
-require "selenium/webdriver"
-Capybara.javascript_driver = :selenium_chrome
