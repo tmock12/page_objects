@@ -30,3 +30,8 @@ RSpec.describe 'Customer adds product to supermarket list', type: :feature, js: 
     expect(product_page).to have_added_to_list_button
   end
 end
+
+
+# Notes:
+# No knowledge about the structure of the page (HTML/CSS)
+# High level DSL
