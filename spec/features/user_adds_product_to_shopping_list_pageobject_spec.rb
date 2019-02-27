@@ -1,6 +1,4 @@
 require 'spec_helper'
-require_relative '../support/pages/product.rb'
-require_relative '../support/pages/login.rb'
 
 RSpec.describe 'Customer adds product to supermarket list', type: :feature, js: true do
   scenario 'with an existing account' do
