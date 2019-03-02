@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Taylor Mock"]
   spec.email         = ["tmock12@gmail.com"]
 
-  spec.summary       = %q{page objects}
-  spec.description   = %q{page objects}
-  spec.homepage      = "https://www.github.com"
+  spec.summary       = %q{page objects basic example}
+  spec.description   = %q{Basic example of page objects from Ruby a la Cluj talk}
+  spec.homepage      = "https://github.com/tmock12/page_objects"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
     spec.metadata["allowed_push_host"] = "none"
 
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "http://taylor-mock.com"
-    spec.metadata["changelog_uri"] = "http://taylor-mock.com"
+    spec.metadata["source_code_uri"] = "https://github.com/tmock12/page_objects"
+    spec.metadata["changelog_uri"] = "https://github.com/tmock12/page_objects/changelog"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
